@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>SuperHerois</title>
+        <script src="js/script.js"></script>
+        <style>
+
+            h1{
+                color: blue;
+                font-size: larger; 
+                font-family: "Lucida Console", Courier, monospace;
+                align-items: center;
+                justify-content: center;
+                margin-right: 10px;
+            }
+
+            .header{
+                color: black;
+                font-size: larger; 
+            }
+
+            .footer{
+                color: azure;
+                font-size: larger; 
+            }
+            .card{
+                border-color: grey;
+                border-width: 1px;
+                border-style: solid;
+                width: 20%;
+                align-items: center;
+                justify-content: center;
+                margin-right: 10px;
+            }
+
+            #conteudo-heroi{
+                display: flex;
+                flex-wrap: wrap;
+                font-family: "Lucida Console", Courier, monospace;
+                align-items: center;
+                justify-content: center;
+                margin-right: 10px;
+            }
+
+
+        </style>
+    </head>
+
+    <body onload="carregarHerois()">
+
+        <h1 class="header">Super Heróis</h1>
+
+        <div id="conteudo-heroi"></div>
+
+        <h1 class="footer">Final da Lista</h1>
+
+    </body>
+
+</html>
