@@ -6,7 +6,7 @@ function carregarCotacao() {
         })
         .then(function(data) {
             console.log(data);
-            MostraCotacao(data);
+            mostrarCotacao(data);
         })
 }
 
